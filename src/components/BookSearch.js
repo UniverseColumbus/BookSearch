@@ -80,7 +80,7 @@ export default function BookSearch() {
                     searched: false
                 })
             }
-        }, [data, call.searched])
+        }, [data, books])
         
 
         let numOfResults = books.length
