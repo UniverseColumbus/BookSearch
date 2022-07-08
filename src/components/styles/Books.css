@@ -1,0 +1,16 @@
+.books-container {
+    width: 100%;
+}
+
+.books-container .books-message {
+    display: block;
+}
+
+.books-container .error-message {
+    color: red;
+    margin-top: 5px;
+}
+
+.books-message {
+    margin-bottom: 70px;
+}

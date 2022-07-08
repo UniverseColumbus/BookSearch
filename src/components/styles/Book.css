@@ -1,0 +1,90 @@
+.book-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 40px 0px 40px 0px;
+}
+
+/* Book Title */
+
+.title {
+	padding: 0px;
+	text-transform: uppercase;
+	color: black;
+}
+
+.line {
+	margin: 20px 0px 20px 0px;
+	width: 100%;
+	border: 1px solid #F0F0F0;
+}
+
+.btn-show-info {
+	font-size: 32px;
+	font-weight: bold;
+	color: #808080;
+	border: none;
+	background-color: white;
+}
+
+/* Book Info */
+
+.book-box {
+	display: flex;
+	flex-direction: row;
+}
+
+.book-info-box {
+	margin-left: 10px;
+	text-align: left;
+}
+
+/* Book Info - Cover */
+
+.book-cover-box {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	display: block;
+	text-align: center;
+}
+
+.book-cover {
+	width: 184px;
+	height: 235px;
+    border: 1px solid #808080;
+    background-size: cover;
+    display: block;
+	z-index: 1;
+}
+
+.no-book-cover {
+	z-index: -1;
+	position: absolute;
+	margin-left: 28px;
+	margin-top: 50px;
+}
+
+.info-box {
+	min-height: 4rem;
+	display: flex;
+	flex-direction: column;
+}
+
+.info-box * {
+	text-align: left;
+	padding-left: 20px;
+	font-family: 'Raleway', sans-serif;
+	color: black;
+}
+
+
+
+
+
+
+
+
+

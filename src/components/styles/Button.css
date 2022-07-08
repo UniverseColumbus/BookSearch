@@ -1,0 +1,40 @@
+button.component{
+    padding: 0.7em 1em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    z-index: 1;
+}
+
+button.component:hover {
+    animation-name: btn-animation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+button.component.black {
+    background-color: black;
+    color: white;
+}
+
+button.component.blue {
+    background-color: blue;
+    color: white;
+}
+
+button.component.large {
+    font-size: 120%;
+}
+
+button.component.medium {
+    font-size: 100%;
+}
+
+button.component.small {
+    font-size: 80%;
+}
+
+@keyframes btn-animation {
+    0% {opacity: 1; transform: none; box-shadow: none}
+    100% {opacity: 0.88; transform: translateY(-4px); box-shadow: 0px 0.3em 0.7em rgba(0, 0, 0, 0.4);}
+}

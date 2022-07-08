@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  list-style: none;
+}
+
+html{
+  overflow-x: hidden;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh + 200px;
+}
+
+.website-title {
+  color: white;
+  letter-spacing: 0.2ch;
+  font-size: 40px;
+  text-shadow: 1px 1px #8a8165;
+}
+
+.website-title-container {
+  height: 170px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-image: url('./pictures/banner.jpg');
+  object-fit: fill;
+  background-position: bottom;
+}
