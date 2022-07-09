@@ -47,17 +47,17 @@ export default function BookSearch() {
         let books = call.books
 
         if (type === 'Title'){
-            query = `http://openlibrary.org/search.json?title=${query}`
+            query = `https://openlibrary.org/search.json?title=${query}`
         }
         else if (type === 'Author'){
-            query = `http://openlibrary.org/search.json?author=${query}`
+            query = `https://openlibrary.org/search.json?author=${query}`
         }
         else if (type === 'ISBN'){
             if (isNaN(query) && query !== '') {
                 message = 'Must Enter a Number'
                 enabled = false
             }
-            query = `http://openlibrary.org/isbn/${query}.json`
+            query = `https://openlibrary.org/isbn/${query}.json`
         }
 
         query = query.replaceAll(' ', '+')
